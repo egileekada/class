@@ -1,0 +1,223 @@
+@font-face {
+    font-family: "Lorin-Light";
+    src: url("../fonts/Lorin-Light.ttf");
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: "Lorin-Regular";
+    src: url("../fonts/Lorin-Regular.ttf");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Lorin-Bold";
+    src: url("../fonts/Lorin-Bold.ttf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Lorin-ExtraBold";
+    src: url("../fonts/Lorin-ExtraBold.ttf");
+    font-weight: 800;
+}
+
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    color: white;
+    width: 100vw;
+    position: relative;
+    left: 0px;
+    right: 0px;
+    overflow-x: hidden;
+}
+
+nav {
+    height: 80px;
+    display: flex;
+    padding-inline: 30px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-width: 1px;
+    border-bottom-color: #7B7B7B;
+    border-bottom-style: solid;
+}
+
+#logo {
+    font-family: "Lorin-Bold";
+    font-size: 22px;
+    line-height: 20px;
+    letter-spacing: -1px;
+    vertical-align: middle;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navlist {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    color: #7B7B7B;
+    font-size: 14px;
+    font-family: "Lorin-Bold";
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.register {
+    width: 142px;
+    height: 45px;
+    background-color: #D9D9D9;
+    color: black;
+    font-family: "Lorin-Bold";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    padding: 30px;
+}
+
+.herosection {
+    border-width: 1px;
+    border-color: #3E3E3E;
+    border-style: solid;
+    padding: 14px;
+    border-radius: 24px;
+    max-width: 1460px;
+    height: fit-content;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+}
+
+.colors {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+
+.colors div {
+    width: 10px;
+    height: 10px;
+    border-radius: 999px;
+}
+
+.red {
+    background-color: #BA0E0E;
+}
+
+.yellow {
+    background-color: #EF930A;
+}
+
+.green {
+    background-color: #0CCB2A;
+}
+
+.listofpeople {
+    display: flex;
+}
+
+.listofpeople img {
+    width: 26px;
+    height: 26px;
+    border-radius: 999px;
+}
+
+.listofpeople div {
+    width: 26px;
+    height: 26px;
+    border-radius: 999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(311.35deg, #1E1E1E 39.36%, #3D3D3D 84.74%);
+    font-family: "Lorin-Bold";
+    font-size: 14px;
+    color: white;
+}
+
+.content {
+    position: relative;
+    background: linear-gradient(180deg, #2A0A9A 5.07%, #804EBD 62.52%, #D2A6CA 123.75%);
+    height: 712px;
+    border-radius: 24px;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: row;
+}
+
+.foreground {
+    position: absolute;
+    bottom: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    inset: 0px;
+    opacity: 0.3;
+    mix-blend-mode: Soft light;
+} 
+
+.foregroundimage {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.texttab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+    flex: 1;
+}
+
+.contenttab {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex: 1;
+    padding-right: 30px;
+}
+
+.text{
+    max-width: 530px; 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;   
+}
+
+.textheader {
+    font-size: 70px;
+    line-height: 100%;
+    font-family: "Lorin-ExtraBold"; 
+}
+
+.textbody{
+    font-size: 18px;
+    font-family: "Lorin-Bold"; 
+}
+
+.tab{
+    max-width: 621px;
+    width: 100%;
+    border-radius: 24px; 
+    max-height: 459px;
+    height: 100%;
+}
+

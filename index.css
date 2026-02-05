@@ -1,0 +1,52 @@
+th {
+    background-color: black;
+    color: white;
+    width: 300px;
+}
+
+td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+.name {
+    background-color: blue;
+    color: gainsboro;
+}
+
+#age {
+    color: red;
+}
+
+.relative {
+    position: relative;
+    left: 50px;
+    background-color: black;
+    color: white;
+    width: fit-content;
+}
+
+.fixed {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: aqua;
+    z-index: 10;
+}
+
+.absolute {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: pink;
+}
+
+.sticky {
+    position: sticky;
+    top: 0px;
+    background-color: brown;
+    z-index: 20;
+}
