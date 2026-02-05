@@ -22,7 +22,6 @@
     font-weight: 800;
 }
 
-
 body {
     padding: 0px;
     margin: 0px;
@@ -35,6 +34,12 @@ body {
     overflow-x: hidden;
 }
 
+header {
+    position: sticky;
+    top: 0px;
+    z-index: 20;
+}
+
 nav {
     height: 80px;
     display: flex;
@@ -44,6 +49,7 @@ nav {
     border-bottom-width: 1px;
     border-bottom-color: #7B7B7B;
     border-bottom-style: solid;
+    background-color: black;
 }
 
 #logo {
