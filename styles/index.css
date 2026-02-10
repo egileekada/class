@@ -227,3 +227,34 @@ main {
     height: 100%;
 }
 
+
+@media (max-width: 500px) {
+    .navlist {
+        display: none;
+    }
+    .register {
+        display: none;
+    }
+    .content {
+        flex-direction: column; 
+        height: fit-content;
+        padding-top: 24px;
+        padding-bottom: 16px;
+        gap: 30px;
+    }
+    .textheader {
+        font-size: 25px; 
+    }
+    .textbody {
+        font-size: 14px;
+    }
+    .texttab {
+        padding-inline: 12px;
+    }
+    .contenttab {
+        padding-inline: 12px;
+    }
+    .tab {
+        max-height: fit-content;
+    } 
+}
